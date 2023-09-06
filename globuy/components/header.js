@@ -20,7 +20,7 @@ const breakpoints = {
 const theme = extendTheme({ breakpoints });
 
 const Header = () => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState(""); //To get the value entered in search bar
   return (
     <header className=" mb-10  bg-mediumslateblue-200 w-full flex flex-row py-5 px-5 box-border items-center justify-end gap-[22px] text-left text-29xl text-white font-inter sm:pb-4 sm:px-0 sm:pt-0">
       <div className="flex-1 overflow-hidden flex flex-row items-center justify-between sm:flex-col ">
