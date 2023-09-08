@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.blue-gradient{
+    @apply [background:linear-gradient(89.28deg,_#0009de_1.3%,_rgba(249,_0,_0,_0.7)_70.6%,_rgba(255,_0,_0,_0.55)_91.29%,_rgba(255,_0,_0,_0.5)_100%,_rgba(255,_0,_0,_1)_100%)]
+  }
