@@ -1,6 +1,7 @@
 const HeroSection = () => {
   return (
     <div className=" w-full  flex flex-row py-5 px-5 items-center justify-between text-left text-5xl text-white font-inter sm:mt-0  ">
+      {/* TO DO : make Carousel */}
       <img
         className="relative rounded-14xl w-8/12 object-contain md:w-full"
         alt=""
@@ -12,6 +13,7 @@ const HeroSection = () => {
           alt=""
           src="/assets/Images/frame2.svg"
         />
+        {/* Profile card */}
         <div className="self-stretch overflow-hidden flex flex-col items-center justify-start gap-[47px]">
           <div className="self-stretch overflow-hidden flex flex-col items-start justify-center">
             <h2 className="m-0 self-stretch relative text-inherit font-bold font-inherit">
