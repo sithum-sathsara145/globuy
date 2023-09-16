@@ -25,14 +25,14 @@ const Categories = () => {
       <div className="bg-gainsboro-100 w-[75%] flex  py-10 px-16  box-border items-start justify-end gap-[51px] text-black md:w-full md:p-1">
         <div className="self-stretch flex flex-wrap gap-5 items-center justify-center   ">
             {/* TODO : map category card to take data from json */}
-            <CategoryCard cardImage="/assets/Images/ellipse-7@2x.png" Title="Title" />
-            <CategoryCard cardImage=" /assets/Images/frame.svg" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/ellipse-3@2x.png" Title="beauty" />
-            <CategoryCard cardImage="/assets/Images/ellipse-5@2x.png" Title="online pay" />
-            <CategoryCard cardImage="/assets/Images/frame1.svg" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/ellipse-71@2x.png" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/ellipse-31@2x.png" Title="beauty" />
-            <CategoryCard cardImage="/assets/Images/ellipse-51@2x.png" Title="online pay" />
+            <CategoryCard cardImage="/assets/Images/clothing.png" Title="Title" />
+            <CategoryCard cardImage="/assets/Images/cosmetics.png" Title="Title" />
+            <CategoryCard cardImage="/assets/Images/cosmetics.png" Title="beauty" />
+            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="online pay" />
+            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="Title" />
+            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="Title" />
+            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="beauty" />
+            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="online pay" />
         </div>
       </div>
     </section>

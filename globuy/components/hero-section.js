@@ -11,7 +11,7 @@ const HeroSection = () => {
         <img
           className="relative w-[168px] h-[137px] overflow-hidden shrink-0"
           alt=""
-          src="/assets/Images/frame2.svg"
+          src="/assets/Images/logo.svg"
         />
         {/* Profile card */}
         <div className="self-stretch overflow-hidden flex flex-col items-center justify-start gap-[47px]">

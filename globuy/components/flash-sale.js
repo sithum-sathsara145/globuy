@@ -19,27 +19,27 @@ const FlashSale = () => {
       <div className=" w-[70%] overflow-hidden flex flex-col items-center justify-start">
           <div className="self-stretch flex flex-wrap gap-2 items-center justify-center">
             <FlashCard
-              cardImage="/assets/Images/frame3@2x.png"
+              cardImage="/assets/Images/beater.png"
               rating={4}
             />
             <FlashCard
-              cardImage="/assets/Images/frame4@2x.png"
+              cardImage="/assets/Images/beater.png"
               rating={5}
             />
             <FlashCard
-              cardImage="/assets/Images/frame3@2x.png"
+              cardImage="/assets/Images/beater.png"
               rating={4}
             />
             <FlashCard
-              cardImage="/assets/Images/frame3@2x.png"
+              cardImage="/assets/Images/beater.png"
               rating={5}
             />
             <FlashCard
-              cardImage="/assets/Images/frame4@2x.png"
+              cardImage="/assets/Images/beater.png"
               rating={4}
             />
             <FlashCard
-              cardImage="/assets/Images/frame3@2x.png"
+              cardImage="/assets/Images/beater.png"
               rating={4}
             />
           </div>

@@ -15,22 +15,22 @@ const Featured = () => {
       <div className="w-[85%]  flex flex-wrap items-center justify-center gap-5 text-left text-xl text-black md:w-full md:gap-[20px]  sm:flex-col sm:gap-[20px]  smd:gap-1">
         {/* TODO : map category card to take data from json */}
         <FeatureCard
-          cardImage="/assets/Images/rectangle-25@2x.png"
+          cardImage="/assets/Images/keytag.png"
           discountPrice="RS.350.00"
           totalPrice="RS.550.00"
         />
         <FeatureCard
-          cardImage="/assets/Images/rectangle-27@2x.png"
+          cardImage="/assets/Images/bottle.png"
           discountPrice="RS.950.00"
           totalPrice="RS.1450.00"
         />
         <FeatureCard
-          cardImage="/assets/Images/rectangle-28@2x.png"
+          cardImage="/assets/Images/hairdrier.png"
           discountPrice="RS.1650.00"
           totalPrice="RS.2550.00"
         />
         <FeatureCard
-          cardImage="/assets/Images/rectangle-25@2x.png"
+          cardImage="/assets/Images/headphones.png"
           discountPrice="RS.1350.00"
           totalPrice="RS.2550.00"
         />
