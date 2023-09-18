@@ -1,11 +1,13 @@
+import { bannerImages } from "@/utils/data";
+import ImageCarousel from "./reusable/ImageCarousel";
+
 const HeroSection = () => {
   return (
     <div className=" w-full  flex flex-row py-5 px-5 items-center justify-between text-left text-5xl text-white font-inter sm:mt-0  ">
-      {/* TO DO : make Carousel */}
-      <img
-        className="relative rounded-14xl w-8/12 object-contain md:w-full"
-        alt=""
-        src="/assets/Images/banner-image@2x.png"
+      {/* Image Carousel */}
+      <ImageCarousel
+        className="relative rounded-14xl w-8/12 h-[330px] object-contain md:w-full"
+        src={bannerImages}
       />
       <div className="rounded-48xl [background:linear-gradient(180deg,_#0500ff,_#db00ff)] w-[30%] flex flex-col py-10 px-7 box-border items-center justify-center gap-[24px] lg:w-[30%] md:hidden ">
         <img

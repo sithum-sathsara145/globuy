@@ -4,7 +4,7 @@ const FlashSale = () => {
   return (
     <section className=" bg-gainsboro-200 w-full flex text-left text-xs text-black font-inter p-5 gap-5 md:hidden">
       <div className=" w-[30%] overflow-hidden flex flex-col py-[19px] px-0 box-border items-center justify-end text-center text-17xl text-white">
-        <img src="/assets/Images/frame5@3x.png" alt=""  className="w-[100%]"/>
+        <img src="/assets/Images/flashsaleImg.png" alt=""  className="w-[100%]"/>
         <div className="bg-red-100 w-[438px] flex flex-col py-2.5 px-[3px] box-border items-center justify-start">
           <div className="w-[310px] overflow-hidden flex flex-col items-start justify-center">
             <h2 className="m-0 self-stretch relative text-clip font-bold font-inherit">
