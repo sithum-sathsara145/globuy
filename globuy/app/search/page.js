@@ -1,15 +1,17 @@
 'use client'
 
 import React from 'react';
-import { usePathname } from 'next/navigation'
+import { usePathname, useSearchParams } from 'next/navigation'
 import ImageCarousel from '@/components/reusable/ImageCarousel';
 import { bannerImages } from '@/utils/data';
 
-export default function search() {
+export default function search({}) {
     const pathname =usePathname();
+    const SearchParams = useSearchParams();
+    const query = SearchParams.get('q')
   return (
-    <div>search {pathname}
-    <ImageCarousel className='' src={bannerImages}/>
+    <div>
+      {query}
     </div>
   )
 }

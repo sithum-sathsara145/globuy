@@ -5,6 +5,9 @@ import { Input, InputGroup, InputRightElement } from "@chakra-ui/react";
 import { Search2Icon } from "@chakra-ui/icons";
 import { useState } from "react";
 import { extendTheme } from "@chakra-ui/react";
+import { useRouter } from 'next/navigation'
+ 
+
 // import cart from '../assets/Images/cart@2x.png'
 
 //  Update the breakpoints as key-value pairs
@@ -20,7 +23,16 @@ const breakpoints = {
 const theme = extendTheme({ breakpoints });
 
 const Header = () => {
+  const router = useRouter()
   const [search, setSearch] = useState(""); //To get the value entered in search bar
+
+  const handleSearch =(e)=>{
+    setSearch(e.target.value)
+    e.target.value === ''?
+    router.push('/'):
+    router.push(`/search?q=${e.target.value}`)
+
+  }
   return (
     <header className=" mb-10  bg-mediumslateblue-200 w-full flex flex-row py-5 px-5 box-border items-center justify-end gap-[22px] text-left text-29xl text-white font-inter sm:pb-4 sm:px-0 sm:pt-0">
       <div className="flex-1 overflow-hidden flex flex-row items-center justify-between sm:flex-col ">
@@ -39,7 +51,7 @@ const Header = () => {
               variant="filled"
               placeholder="search in globuy.lk"
               value={search}
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={(e)=>handleSearch(e)}
             />
           </InputGroup>
 

@@ -1,4 +1,5 @@
 import CategoryCard from "./category-card";
+import { categories } from "@/utils/data";
 
 const Categories = () => {
   return (
@@ -23,16 +24,9 @@ const Categories = () => {
       </div>
       {/* catogories */}
       <div className="bg-gainsboro-100 w-[75%] flex  py-10 px-16  box-border items-start justify-end gap-[51px] text-black md:w-full md:p-1">
-        <div className="self-stretch flex flex-wrap gap-5 items-center justify-center   ">
-            {/* TODO : map category card to take data from json */}
-            <CategoryCard cardImage="/assets/Images/clothing.png" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/cosmetics.png" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/cosmetics.png" Title="beauty" />
-            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="online pay" />
-            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="Title" />
-            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="beauty" />
-            <CategoryCard cardImage="/assets/Images/onlinepay.png" Title="online pay" />
+        <div className="self-stretch flex flex-wrap gap-5 items-center justify-center ">
+            {categories.map((category)=>(<CategoryCard cardImage={category.img} Title={category.title}/>))}
+
         </div>
       </div>
     </section>

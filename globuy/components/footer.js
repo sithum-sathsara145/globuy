@@ -2,8 +2,8 @@ export default function Footer() {
   return (
     <footer className=" flex w-full p-10 bg-slateblue flex-col justify-center items-center">
       
-        <div className="w-full flex justify-between items-start flex-wrap text-left">
-          <div className="flex flex-col">
+        <div className="w-full flex justify-between items-start flex-wrap text-left smd:flex-col smd:justify-center smd:gap-5">
+          <div className="flex flex-col ">
             <div>
               <h1 className="m-0 relative text-29xl text-white font-bold font-inherit inline-block sm:text-13xl ">
                 globuy.lk

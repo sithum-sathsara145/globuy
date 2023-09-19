@@ -1,4 +1,5 @@
 import FlashCard from "./flash-card";
+import { products } from "@/utils/data";
 
 const FlashSale = () => {
   return (
@@ -18,30 +19,9 @@ const FlashSale = () => {
       </div>
       <div className=" w-[70%] overflow-hidden flex flex-col items-center justify-start">
           <div className="self-stretch flex flex-wrap gap-2 items-center justify-center">
-            <FlashCard
-              cardImage="/assets/Images/beater.png"
-              rating={4}
-            />
-            <FlashCard
-              cardImage="/assets/Images/beater.png"
-              rating={5}
-            />
-            <FlashCard
-              cardImage="/assets/Images/beater.png"
-              rating={4}
-            />
-            <FlashCard
-              cardImage="/assets/Images/beater.png"
-              rating={5}
-            />
-            <FlashCard
-              cardImage="/assets/Images/beater.png"
-              rating={4}
-            />
-            <FlashCard
-              cardImage="/assets/Images/beater.png"
-              rating={4}
-            />
+              {products.slice(0,8).map((product)=>(
+                <FlashCard source={product}/>
+              ))}
           </div>
       </div>
     </section>
