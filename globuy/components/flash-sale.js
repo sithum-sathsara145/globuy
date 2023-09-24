@@ -1,8 +1,22 @@
+
 import FlashCard from "./flash-card";
 import { products } from "@/utils/data";
 
+function shufflearray(array) {
+  let i = array.length - 1;
+  for (; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
 const FlashSale = () => {
+  const randomProducts = shufflearray(products)
   return (
+    // random product cards
     <section className=" bg-gainsboro-200 w-full flex text-left text-xs text-black font-inter p-5 gap-5 md:hidden">
       <div className=" w-[30%] overflow-hidden flex flex-col py-[19px] px-0 box-border items-center justify-end text-center text-17xl text-white">
         <img src="/assets/Images/flashsaleImg.png" alt=""  className="w-[100%]"/>
@@ -19,7 +33,7 @@ const FlashSale = () => {
       </div>
       <div className=" w-[70%] overflow-hidden flex flex-col items-center justify-start">
           <div className="self-stretch flex flex-wrap gap-2 items-center justify-center">
-              {products.slice(0,8).map((product)=>(
+              {randomProducts.slice(0,8).map((product)=>(
                 <FlashCard key={product.id} source={product}/>
               ))}
           </div>
