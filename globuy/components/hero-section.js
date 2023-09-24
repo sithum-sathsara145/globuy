@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className=" w-full  flex flex-row py-5 px-5 items-center justify-between text-left text-5xl text-white font-inter sm:mt-0  ">
+    <div className=" w-full  flex flex-row py-5 px-5 items-center justify-between text-left text-5xl text-white font-inter sm:mt-0 sm:pt-0 ">
       {/* Image Carousel */}
       <ImageCarousel
         className="relative rounded-14xl w-8/12 h-[330px] object-contain md:w-full"

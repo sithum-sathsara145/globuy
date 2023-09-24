@@ -1,8 +1,15 @@
+'use client'
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const CategoryCard = ({ cardImage, Title }) => {
+  const router = useRouter()
+  const handlClick =(e)=>{
+    router.push(`/search?q=${Title.toLowerCase()}`)
+
+  }
   return (
-    <div className="rounded-3xl bg-white w-[203px] h-[203px] flex flex-col py-[11px] px-[26px] box-border items-center justify-start gap-[5px] text-left text-5xl text-black font-inter sm:w-[120px] sm:h-[120px] sm:py-[5px] sm:text-xs">
+    <div className="rounded-3xl bg-white w-[203px] h-[203px] flex flex-col py-[11px] px-[26px] box-border items-center justify-start gap-[5px] text-left text-5xl text-black font-inter sm:w-[120px] sm:h-[120px] sm:py-[5px] sm:text-xs" onClick={handlClick}>
       <Image
         width={150}
         height={150}

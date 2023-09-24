@@ -7,6 +7,7 @@ import { useState } from "react";
 import { extendTheme } from "@chakra-ui/react";
 import { useRouter } from 'next/navigation';
 import Image from "next/image";
+import Link from "next/link";
  
 
 // import cart from '../assets/Images/cart@2x.png'
@@ -35,7 +36,7 @@ const Header = () => {
 
   }
   return (
-    <header className=" mb-10  bg-mediumslateblue-200 w-full flex flex-row py-5 px-5 box-border items-center justify-end gap-[22px] text-left text-29xl text-white font-inter sm:pb-4 sm:px-0 sm:pt-0">
+    <header className=" mb-10  bg-mediumslateblue-200 w-full flex flex-row py-5 px-5 box-border items-center justify-end gap-[22px] text-left text-29xl text-white font-inter sm:pb-4 sm:px-0 sm:pt-0 sm:mb-0">
       <div className="flex-1 overflow-hidden flex flex-row items-center justify-between sm:flex-col ">
         <div>
           <h1 className="m-0 relative text-inherit font-bold font-inherit inline-block sm:text-13xl ">
@@ -56,10 +57,10 @@ const Header = () => {
             />
           </InputGroup>
 
-          <b className="relative inline-block text-13xl lg:text-7xl md:hidden">
+          <Link href='/contact-us' className="relative inline-block font-bold text-13xl lg:text-7xl md:hidden">
             <p className="m-0">happiness hotline </p>
             <p className="m-0">+94 71 486 1684</p>
-          </b>
+          </Link>
           <Image
             width={50}
             height={50}
