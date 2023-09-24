@@ -5,7 +5,8 @@ import { Input, InputGroup, InputRightElement } from "@chakra-ui/react";
 import { Search2Icon } from "@chakra-ui/icons";
 import { useState } from "react";
 import { extendTheme } from "@chakra-ui/react";
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation';
+import Image from "next/image";
  
 
 // import cart from '../assets/Images/cart@2x.png'
@@ -59,7 +60,9 @@ const Header = () => {
             <p className="m-0">happiness hotline </p>
             <p className="m-0">+94 71 486 1684</p>
           </b>
-          <img
+          <Image
+            width={50}
+            height={50}
             className="relative w-[50px] h-[50px] object-cover sm:w-[45px] sm:h-[45px]"
             alt="cart"
             src="/assets/Images/cart@2x.png"

@@ -20,7 +20,7 @@ const FlashSale = () => {
       <div className=" w-[70%] overflow-hidden flex flex-col items-center justify-start">
           <div className="self-stretch flex flex-wrap gap-2 items-center justify-center">
               {products.slice(0,8).map((product)=>(
-                <FlashCard source={product}/>
+                <FlashCard key={product.id} source={product}/>
               ))}
           </div>
       </div>

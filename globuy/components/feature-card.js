@@ -1,8 +1,12 @@
+import Image from "next/image";
+
 const FeatureCard = ({ cardImage, discountPrice, totalPrice }) => {
   return (
     <div className="rounded-mini bg-white w-[254px] flex flex-col py-[7px] px-[20px] box-border items-center justify-start gap-[6px] text-left text-9xl text-white font-inter  smd:w-[200px]">
       <div className="self-stretch  overflow-hidden shrink-0 flex flex-col items-center justify-start">
-        <img
+        <Image
+          width={200}
+          height={200}
           className="relative w-[200px] h-[200px] object-cover smd:w-[150px] smd:h-[150px] "
           alt=""
           src={cardImage}

@@ -1,5 +1,6 @@
 import { bannerImages } from "@/utils/data";
 import ImageCarousel from "./reusable/ImageCarousel";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,9 @@ const HeroSection = () => {
         src={bannerImages}
       />
       <div className="rounded-48xl [background:linear-gradient(180deg,_#0500ff,_#db00ff)] w-[30%] flex flex-col py-10 px-7 box-border items-center justify-center gap-[24px] lg:w-[30%] md:hidden ">
-        <img
+        <Image
+          width={140}
+          height={140}
           className="relative w-[168px] h-[137px] overflow-hidden shrink-0"
           alt=""
           src="/assets/Images/logo.svg"

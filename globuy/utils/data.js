@@ -1,18 +1,18 @@
 export const bannerImages = [
     {
-        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/j1kmaqexht3soql0nif4",
+        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/j1kmaqexht3soql0nif4",
         'alt' : "",
     },
     {
-        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/pn1zr5svmktv9qgok1gx",
+        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/pn1zr5svmktv9qgok1gx",
         'alt' : "",
     },
     {
-        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/backfridaybanner",
+        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/backfridaybanner",
         'alt' : "",
     },
     {
-        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/ykbz2bltqqnu7v34zc2c",
+        'url': "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/ykbz2bltqqnu7v34zc2c",
         'alt' : "",
     },
 ]
@@ -62,16 +62,16 @@ export const categories = [
 export const products = [
     {
         id:1,
-        title: 'Skeleton Quartz Wristwatch Gold Skeleton ',
+        title: 'Single one Burner Gas Cooker',
         description: "Follow the store to get a fan exclusive price add to cart win gift~ Movement: Quartz Movement Gender:Men & Male Relogio Masculino",
-        price: {market: 4000, sale: 3000},
+        price: {market: 8400, sale: 4200},
         images: [
             {
-              src: '/assets/Images/wristwatch(5).jpg',
+              src: 'https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_500/v1/globuy/tt0ewhqns6upw67dpbbb',
               alt: '',
             },
             {
-              src: '/assets/Images/wristwatch(2)',
+              src: '/assets/Images/sgl_single_burner_gas_cooker_ns_front_500x.jpg',
               alt: '',
             },
             {
@@ -93,12 +93,12 @@ export const products = [
     },
     {
         id:2,
-        title: 'Skeleton Quartz Wristwatch Gold Skeleton ',
+        title: 'Skeleton Quartz Wristwatch ',
         description: "Follow the store to get a fan exclusive price add to cart win gift~ Movement: Quartz Movement Gender:Men & Male Relogio Masculino",
         price: {market: 4000, sale: 3000},
         images: [
             {
-              src: '/assets/Images/wristwatch(5).jpg',
+              src: 'https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_500/v1/globuy/wristwatch1',
               alt: '',
             },
             {
@@ -129,7 +129,7 @@ export const products = [
         price: {market: 4000, sale: 3000},
         images: [
             {
-              src: '/assets/Images/wristwatch(5).jpg',
+              src: 'https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_500/v1/globuy/wristwatch1',
               alt: '',
             },
             {
@@ -160,7 +160,7 @@ export const products = [
         price: {market: 4000, sale: 3000},
         images: [
             {
-              src: '/assets/Images/wristwatch(5).jpg',
+              src: 'https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_500/v1/globuy/wristwatch1',
               alt: '',
             },
             {
