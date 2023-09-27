@@ -44,6 +44,9 @@ module.exports = {
         "3xl": "22px",
         xl: "20px",
       },
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
+      },
     },
     fontSize: {
       "21xl": "40px",
@@ -61,6 +64,9 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
+      xlg:{
+        max: '1440px',
+      },
       lg: {
         max: "1200px",
       },
@@ -81,6 +87,7 @@ module.exports = {
   plugins: [
     // ...
     require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio')
   ],
 };
 

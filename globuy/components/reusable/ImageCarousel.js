@@ -27,7 +27,7 @@ export default function ImageCarousel({ className , src}) {
       className={`${className} max-w-[1400px]  m-auto relative group`}
     >
       <div
-        style={{ backgroundImage: `url(${src[currentIndex].url})` }}
+        style={{ backgroundImage: `url(${src[currentIndex].src})` }}
         className="w-full h-full rounded-2xl bg-center bg-contain bg-no-repeat duration-500"
       ></div>
       {/* Left Arrow */}

@@ -1,18 +1,18 @@
 export const bannerImages = [
   {
-    url: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/j1kmaqexht3soql0nif4",
+    src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/j1kmaqexht3soql0nif4",
     alt: "",
   },
   {
-    url: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/pn1zr5svmktv9qgok1gx",
+    src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/pn1zr5svmktv9qgok1gx",
     alt: "",
   },
   {
-    url: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/backfridaybanner",
+    src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/backfridaybanner",
     alt: "",
   },
   {
-    url: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/ykbz2bltqqnu7v34zc2c",
+    src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto,c_limit,w_1000/v1/globuy/ykbz2bltqqnu7v34zc2c",
     alt: "",
   },
 ];
@@ -104,21 +104,21 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/fxaudpzxd34au4cuftk9",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/fyoi4ow2qi0owhknw8yx",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/zzhiokyflh7msm4kc1ls",
         alt: "",
       },
     ],
     colors: [
       { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
-      { name: "Gray", class: "bg-gray-200", selectedClass: "ring-gray-400" },
+      { name: "Gray", class: "bg-gray-200", selectedClass: "mediumslateblue-200" },
       { name: "Black", class: "bg-gray-900", selectedClass: "ring-gray-900" },
     ],
     rating: 4,

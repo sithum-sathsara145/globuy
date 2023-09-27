@@ -1,10 +1,16 @@
+'use client'
+import { useRouter } from 'next/navigation';
 import { styled } from "@mui/material/styles";
 import { Rating } from "@mui/material";
 import Image from "next/image";
 
 const FlashCard = ({ source }) => {
+  const router = useRouter()
+  const handlClick= ()=>{
+    router.push(`/products?id=${source.id}`)
+  }
   return (
-    <div className="rounded-16xl overflow-hidden bg-white w-[200px] flex flex-col items-center justify-start text-left text-xs text-black font-inter lg:w-[175px] sm:w-[155px] sm:rounded-3xl">
+    <div className="rounded-16xl overflow-hidden bg-white w-[200px] flex flex-col items-center justify-start text-left text-xs text-black font-inter lg:w-[175px] sm:w-[155px] sm:rounded-3xl" onClick={handlClick}>
       <Image
         width={200}
         height={200}

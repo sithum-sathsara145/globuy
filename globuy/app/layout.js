@@ -15,13 +15,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gainsboro-200  w-full flex  justify-center`}>
+      <body
+        className={`${inter.className} bg-gainsboro-200  w-full flex  justify-center`}
+      >
         <div className=" w-full max-w-[1440px]">
-        <Providers>
-          <TopNavBar/>
-          <Header/>
-          {children}
-        </Providers>
+          <Providers>
+            <TopNavBar />
+            <Header />
+            {children}
+          </Providers>
         </div>
       </body>
     </html>
