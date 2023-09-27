@@ -20,6 +20,7 @@ export default function product() {
     router.push('/404')
     stop()
   }
+  {/* This is to get product arr index (since database isn't created) */}
   var newId = 1
   if (id <= 0 || id > products.length){
     newId = 0;

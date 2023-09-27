@@ -200,15 +200,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/dress/fs4f28wlywox32qmjedt",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/dress/dztctuh9hsqs6j10mhy5",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/dress/qxajlyru4ypb6czvtmhm",
         alt: "",
       },
     ],
@@ -232,15 +232,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/t-shirt/tf9mi4zr06ftqnqmoi6v",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/t-shirt/fqzrktitvfpvtlc3k68s",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/t-shirt/fqzrktitvfpvtlc3k68s",
         alt: "",
       },
     ],
@@ -265,15 +265,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/cam/exxeus11tyg7bizlqgvt",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/cam/hmkfhntog7ye8j9rkh7l",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/cam/qeyrk9sfqwu6pzlto3hx",
         alt: "",
       },
     ],
@@ -297,15 +297,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/neckless/somnajnl6z6wubsar3qd",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/neckless/ckeeneaprbagkzdslytz",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/neckless/tgetuoqgawbmwt5bdzpq",
         alt: "",
       },
     ],
@@ -329,15 +329,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/shoe/y3evspvswguhqpnpszfi",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/shoe/l7jtd8bdcgumbkir16gz",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/shoe/kntk7slqkrw7vwr4nzrz",
         alt: "",
       },
     ],
@@ -362,15 +362,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/laptop/rfb1wfjr4zp38fax5byq",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/laptop/addwe1tdj8yhuknedgox",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/laptop/czm0lqlwqshqccrehz06",
         alt: "",
       },
     ],
@@ -395,15 +395,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/ROG%20laptop/jkrpl4irhbgkyykzhfoe",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/ROG%20laptop/rli45re26v2yc1b90nfn",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/ROG%20laptop/uygyw14sai868gjysk8f",
         alt: "",
       },
     ],
@@ -428,15 +428,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/canvas%20shoes/tpjgrfif46er1ydrjine",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/canvas%20shoes/j9s6pzokf6xwwtj7itru",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/canvas%20shoes/daas5gckoohr28mdj1d5",
         alt: "",
       },
     ],
@@ -461,15 +461,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/suncream/turxzo5xbcjt8ms10rja",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/suncream/zbvi5clawg05b6craqlq",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/suncream/zbvi5clawg05b6craqlq",
         alt: "",
       },
     ],
@@ -494,15 +494,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/suncream/zbvi5clawg05b6craqlq",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/facecream/jxtofutuodoieflfjvhh",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/facecream/amsmu0xayhihjkr6vdpy",
         alt: "",
       },
     ],
@@ -527,15 +527,15 @@ export const products = [
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(2)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/pen/ibzll1m2axazodnfs25d",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(3)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/pen/znztyhrili2qchkbecq3",
         alt: "",
       },
       {
-        src: "/assets/Images/wristwatch(4)",
+        src: "https://res.cloudinary.com/dkm0ap16q/image/upload/f_auto,q_auto/v1/globuy/pen/mv09qgugclese7yb606n",
         alt: "",
       },
     ],

@@ -7,7 +7,7 @@ import { products } from '@/utils/data';
 
 export default function search({}) {
     const SearchParams = useSearchParams();
-    const query = SearchParams.get('q');
+    const query = SearchParams.get('q').toLowerCase();
     const keys = ['title','category'];
   return (
     <div>
