@@ -3,7 +3,7 @@ import FeatureCard from "./feature-card";
 const Featured = () => {
   return (
      // featured products section
-    <section className=" rounded-35xl blue-gradient w-full flex flex-row pt-[37px] px-[26px] pb-[25px] box-border items-start justify-between text-center text-9xl text-white font-inter md:flex-col md:text-4xl">
+    <section className=" rounded-35xl blue-gradient w-full flex flex-row pt-[37px] px-[26px] pb-[25px] box-border items-start justify-between text-center text-9xl text-white font-inter md:flex-col md:text-4xl sm:hidden">
       <div className="  w-[15%] overflow-hidden shrink-0 flex flex-col items-center justify-end md:w-full">
         <h2 className="m-0 self-stretch relative text-inherit font-bold font-inherit">
           <p className="[margin-block-start:0] [margin-block-end:15px]">
