@@ -29,6 +29,7 @@ const Header = () => {
 
    {/* Move to Search page and send input value as a query */}
   const handleSearch = (e) => {
+    e.preventDefault()
     setSearch(e.target.value);
     e.target.value === ""
       ? router.push("/")

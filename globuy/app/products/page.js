@@ -17,7 +17,7 @@ export default function product() {
   const id = SearchParams.get('id');
   {/*prevents false input parameters and redirect to 404 page*/ }
   if (id === null || id > products.length){
-    router.push('/404')
+    router.push('/error')
     stop()
   }
   {/* This is to get product arr index (since database isn't created) */}
